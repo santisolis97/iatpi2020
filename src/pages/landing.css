@@ -1,0 +1,39 @@
+/* @font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  } */
+
+html, body {
+    margin: 0; 
+    padding: 0; 
+    overflow-x:hidden;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+
+}
+.row{
+    height: 100%;
+    position: relative;
+}
+.landing{
+    width: 100vw;
+    height: 100vh;
+    background-color: #15202B;
+}
+.algorithm{
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    border-right:  #38444d 2px solid;
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
+}
+.form{
+    position: absolute;
+    top: 36%;
+    left: 52%;
+    border-right:  #38444d 2px solid;
+    color: white;
+
+}
