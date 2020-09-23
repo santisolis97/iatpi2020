@@ -11,11 +11,24 @@ html, body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 
 }
-.row{
-    height: 100%;
-    position: relative;
+.static{
+    height: 70%;
 }
+.dynamic{
+    height: 30%;
+}
+.restext{
+    color: white;
+    font-size: 42px;
+}
+canvas{
+
+    width:1400px !important;
+    height:700px !important;
+  
+  }
 .landing{
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: #15202B;
