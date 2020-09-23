@@ -1,20 +1,14 @@
 import React from 'react'
-import Charts from '../components/Chart.js'
 import './landing.css'
 import axios from 'axios';
+import Chart from "chart.js";
 
 
 class App extends React.Component {
-
-  componentDidMount() {
-    axios.get(`http://localhost:8080/api/ia-knn/v1/all`)
-    .then(res => {
-      const all = res.data; 
-      const result = [all.length]
-      this.setState(result);
-      console.log(this.state)
-    })
-  }
+  chartRef = React.createRef();
+    
+    
+  
   state = {
     valores:[]
   }
@@ -32,8 +26,58 @@ handleSubmit(event) {
   axios.get(`http://localhost:8080/api/ia-knn/v1/calculate?xValue=${data.get('xvalue')}&yValue=${data.get('yvalue')}&kValue=${data.get('kvalue')}`)
   .then(res => {
     const knn = res.data;
-    console.log(knn)
+    const resultknn = [knn.length]
+    this.setState({ resultknn });
     this.setState({ knn });
+    // console.log(this.state)
+    this.handleMapping();
+  })
+
+}
+handleMapping(){
+   var i;
+   var obj = {};
+   var data = []
+  //  console.log(this.state.resultknn)
+   for (i = 0; i < this.state.resultknn; i++) { 
+    obj = {}
+    obj["x"] = this.state.knn[i].xvalue;
+    obj["y"] = this.state.knn[i].yvalue;
+    data.push(obj)
+    console.log(obj)
+   }
+  //  console.log(data)
+   this.setState({ data });
+   console.log(this.state)
+   this.handleChart();
+ }
+
+ handleChart(){
+      const myChartRef = this.chartRef.current.getContext("2d");
+      
+      new Chart(myChartRef, {
+        type: 'scatter',
+        data: {
+            datasets: [{
+                label: 'Scatter Dataset',
+                data: this.state.data
+            }]
+        },
+        options: {
+            scales: {
+                xAxes: [{
+                    type: 'linear',
+                    position: 'bottom'
+                }]
+            }
+        }
+    });
+  axios.get(`http://localhost:8080/api/ia-knn/v1/all`)
+  .then(res => {
+    const all = res.data; 
+    const result = [all.length]
+    this.setState({result});
+    // console.log(all)
   })
 }
   render(){ 
@@ -66,7 +110,12 @@ handleSubmit(event) {
           
       </div>
 
-      <Charts className='d-none'/>
+      <div >
+                <canvas
+                    id="myChart"
+                    ref={this.chartRef}
+                />
+            </div>
     </div>
   )
 }

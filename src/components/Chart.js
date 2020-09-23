@@ -2,9 +2,14 @@ import React, { Component } from 'react'
 import Chart from "chart.js";
 
 export default class Charts extends Component {
+    
+
+
+
     chartRef = React.createRef();
     
     componentDidMount() {
+        console.log(this.props)
         const myChartRef = this.chartRef.current.getContext("2d");
         
         new Chart(myChartRef, {
