@@ -27,7 +27,7 @@ handleSubmit(event) {
   this.setState({ynv});
 
 
-  axios.get(`http://localhost:8080/api/ia-knn/v1/calculate?xValue=${dataxios.get('xvalue')}&yValue=${dataxios.get('yvalue')}&kValue=${dataxios.get('kvalue')}`)
+  axios.get(`https://ia-knn.herokuapp.com/api/ia-knn/v1/calculate?xValue=${dataxios.get('xvalue')}&yValue=${dataxios.get('yvalue')}&kValue=${dataxios.get('kvalue')}`)
   .then(res => {
     const knn = res.data;
     const resultknn = [knn.length]
@@ -142,19 +142,27 @@ handleMapping(){
  handleChart(){
       const myChartRef = this.chartRef.current.getContext("2d");
       var zvalues = [];
+      var realxvalues = [];
+      var realyvalues = [];
       var i;
+      
       for (i = 0; i < this.state.resultknn; i++) { 
         zvalues.push(this.state.datan[i].z)
+        realxvalues.push(this.state.datax[i])
+        realyvalues.push(this.state.datay[i])
+
        }
       ReactDOM.render(<p className='text-center restext'>La clase del objeto introducido es {this.state.nvclase}</p>, document.getElementById('resultado'));
       new Chart(myChartRef, {
         type: 'scatter',
         data: {
-            datasets: [{
+            datasets: [
+              {
                 label: 'KNNs',
                 data: this.state.datan,
                 pointBackgroundColor: 'blue',
                 pointRadius: 10,
+                backgroundColor: "blue"
 
             },
              {
@@ -162,12 +170,14 @@ handleMapping(){
                data: [{
                  x: (this.state.xnv-this.state.avgx)/this.state.sx,
                  y: (this.state.ynv-this.state.avgy)/this.state.sy
-             },
+             }
              
            ],
            pointBackgroundColor: 'orange',
            pointRadius: 10,
-           }
+           backgroundColor: "orange"
+           },
+           
           ]
         },
         options: {
@@ -176,7 +186,8 @@ handleMapping(){
             mode: 'single',
             callbacks: {
                 label: function(tooltipItems, data) { 
-                    return 'x: ' + tooltipItems.yLabel + ' : ' +'y: ' + tooltipItems.xLabel + " clase: " + zvalues[tooltipItems.index];
+                  
+                    return ['x: ' + tooltipItems.xLabel +  ' y: ' + tooltipItems.yLabel + " clase: " + zvalues[tooltipItems.index],];
                     }
                 }
             },
