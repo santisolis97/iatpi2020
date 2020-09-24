@@ -3,6 +3,7 @@ import './landing.css'
 import axios from 'axios';
 import Chart from "chart.js";
 import ReactDOM from 'react-dom'
+// Maniana comentar
 
 class App extends React.Component {
   chartRef = React.createRef();
@@ -186,7 +187,7 @@ handleMapping(){
             mode: 'single',
             callbacks: {
                 label: function(tooltipItems, data) { 
-                    return [' x: ' + tooltipItems.xLabel +  ' y: ' + tooltipItems.yLabel + " clase: " + zvalues[tooltipItems.index],];
+                    return ['x: ' + tooltipItems.xLabel +  ' y: ' + tooltipItems.yLabel + " clase: " + zvalues[tooltipItems.index],];
                     }
                 }
             },
