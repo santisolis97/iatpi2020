@@ -186,8 +186,7 @@ handleMapping(){
             mode: 'single',
             callbacks: {
                 label: function(tooltipItems, data) { 
-                  
-                    return ['x: ' + tooltipItems.xLabel +  ' y: ' + tooltipItems.yLabel + " clase: " + zvalues[tooltipItems.index],];
+                    return [' x: ' + tooltipItems.xLabel +  ' y: ' + tooltipItems.yLabel + " clase: " + zvalues[tooltipItems.index],];
                     }
                 }
             },
