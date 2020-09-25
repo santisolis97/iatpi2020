@@ -163,7 +163,7 @@ handleMapping(){
 
        // Se muestra la clase del nuevo elemento
       ReactDOM.render(<p className='text-center restext'>La clase del objeto introducido es {this.state.nvclase}</p>, document.getElementById('resultado'));
-      
+      document.getElementById("myChart").classList.add('canvas')
       // Se instancia el grafico con sus respectivos parametros
       new Chart(myChartRef, {
         type: 'scatter',
@@ -234,7 +234,7 @@ handleMapping(){
                 <input min="1" className='col-sm-3' id="kvalue" name="kvalue" type="number" />
             </div>
             <div className="form-group row">
-                <button type='submit' className='btn btn-primary'>Calculate</button>
+                <button type='submit' className='btn btn-primary'>Classify</button>
             </div>
           
         </form>
@@ -242,17 +242,27 @@ handleMapping(){
           
       </div>
       <div className="row dynamic">
+        <div className="col-5 integrantes">
+          <p>Integrantes</p>
+          <ul className="nombres">
+            <li>Cardozo, Edgar</li>
+            <li>Fiz, Alan</li>
+            <li>Salica, Paula</li>
+            <li>Solis, Santiago</li>
+          </ul>
+        </div>
         <div className="col">
           <div className="resultado" id='resultado'></div>
         </div>
       </div>
+     
 
-      <div >
+      
                 <canvas
                     id="myChart"
                     ref={this.chartRef}
                 />
-            </div>
+            
     </div>
   )
 }

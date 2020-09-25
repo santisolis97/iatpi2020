@@ -19,12 +19,13 @@ html, body {
 }
 .restext{
     color: white;
-    font-size: 42px;
+    font-size: 38px;
+    margin-left: 46px;
 }
 canvas{
 
     width:1400px !important;
-    height:700px !important;
+    height:0;
   
   }
 .landing{
@@ -49,4 +50,22 @@ canvas{
     border-right:  #38444d 2px solid;
     color: white;
 
+}
+.btn-primary{
+    margin-left: 10px;
+    width: 41%;
+    /* border:  rgb(182, 182, 182) 1px solid!important; */
+
+}
+.integrantes{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 55px;
+}
+.nombres{
+    font-size: 15px;
+}
+.canvas{
+    height: 700px;
 }
