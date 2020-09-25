@@ -7,14 +7,21 @@ import ReactDOM from 'react-dom'
 
 class App extends React.Component {
   chartRef = React.createRef();
-  state = {
-      dataset:""
-    }
- constructor() {
   
-
-   super();
+  
+    
+    
+ constructor(props) {
+  
+  
+   super(props);
    this.handleSubmit = this.handleSubmit.bind(this);
+   this.state = {
+    dataset:"",
+    radioStatus: true,
+
+  }
+   
   
  }
 
@@ -223,7 +230,13 @@ bulkLoad(event){
   const databulk = new FormData(event.target);
   if(databulk.get('dataset').length!==0){
     console.log(JSON.parse(databulk.get('dataset')))
-    axios.post('https://ia-knn.herokuapp.com/api/ia-knn/v1/bulk-upload', JSON.parse(databulk.get('dataset')));
+    axios.post('https://ia-knn.herokuapp.com/api/ia-knn/v1/bulk-upload', JSON.parse(databulk.get('dataset')))
+    .then(res => {
+      ReactDOM.render(<div className="alert alert-success" role="alert">
+      <p className='text-center'>Dataset upload was successful</p>
+    </div>, document.getElementById('bulkSuccess'));
+
+    });
 
   }
 }
@@ -232,7 +245,26 @@ handleDatasetChange(value){
     dataset: value
 });
 }
+
+onRadioChange = (radioStatus) => {
+  this.setState({radioStatus})
+  if(this.state.radioStatus){
+    var styleform = {display:"none"} ; 
+    var stylebulk = {display:"block"};
+    this.setState({styleform})
+    this.setState({stylebulk})
+  }
+  else{
+    styleform = {display:"block"};  
+    stylebulk = {display:"none"} ; 
+    this.setState({styleform})
+    this.setState({stylebulk})
+}
+
+console.log(this.state)
+}
   render(){ 
+    // const radioStatus  = this.state.radioStatus;
   return (
     <div className="landing">
       <div className="row static">
@@ -240,7 +272,25 @@ handleDatasetChange(value){
             <div>Knn Algorithm</div>
           </div>
           <div className="col form">
-            <form onSubmit={this.handleSubmit}>
+          <div className="radios">
+              <input
+                  
+                  type="radio"
+                  name="release"
+                  checked = {this.state.radioStatus}
+                  onChange={(e) => this.onRadioChange(true)}
+                /> <strong className='radio'>Classify</strong> 
+              <input
+                  
+                  type="radio"
+                  name="release"
+                  checked = {!this.state.radioStatus}
+                  onChange={(e) => this.onRadioChange(false)}
+                /> <strong className='radio'>Upload dataset</strong> <br/>
+          </div>
+          
+
+        <form className='formulario' style={this.state.styleform} onSubmit={this.handleSubmit}>
             <div className="form-group row">
                 <label className="col-sm-2 col-form-label" htmlFor="xvalue">Enter X Value</label>
                 <input className='col-sm-3' id="xvalue" name="xvalue" step="0.0001" type="number" />
@@ -260,15 +310,17 @@ handleDatasetChange(value){
           
         </form>
       
-          <form onSubmit={this.bulkLoad}>
+          <form className='bulk' style={this.state.stylebulk} onSubmit={this.bulkLoad}>
             <div className="form-group row">
                   <label className="col-sm-2 col-form-label" htmlFor="dataset">Enter dataset</label>
                   <textarea type='text' onChange={e => this.handleDatasetChange(e.target.value)} value={this.state.dataset} rows='18' className='col-sm-3' id="dataset" name="dataset"  />
             </div>
             <div className="form-group row">
                   <button disabled={this.state.dataset.length<1} type='submit' className='btn btn-primary'>Load dataset</button> 
-              </div>
-            
+                  
+
+            </div>
+            <div className="bulkSuccess" id='bulkSuccess'></div>
           
         </form>
         </div>
@@ -298,5 +350,7 @@ handleDatasetChange(value){
     </div>
   )
 }
+
 }
+
 export default App

@@ -22,6 +22,20 @@ html, body {
     font-size: 38px;
     margin-left: 46px;
 }
+.uploadsuccestex{
+    color: white;
+    font-size: 25px;
+    margin-left: 130px;
+
+}
+.alert {
+    width: 41%;
+    margin-bottom: 1px;
+    margin-left: 3px;
+    height: 35px;
+    line-height:35px;
+    padding:0px 20px;
+}
 canvas{
 
     width:1400px !important;
@@ -36,7 +50,7 @@ canvas{
 }
 .algorithm{
     position: absolute;
-    top: 38%;
+    top: 32%;
     left: 2%;
     border-right:  #38444d 2px solid;
     font-weight: 800;
@@ -45,7 +59,7 @@ canvas{
 }
 .form{
     position: absolute;
-    top: 7%;
+    top: 20%;
     left: 52%;
     border-right:  #38444d 2px solid;
     color: white;
@@ -68,4 +82,16 @@ canvas{
 }
 .canvas{
     height: 700px;
+}
+.bulk{
+    display: none;
+}
+.formulario{
+    dispay: block;
+}
+.radio{
+    margin-right: 200px;
+}
+.radios{
+    margin-bottom: 20px;
 }
