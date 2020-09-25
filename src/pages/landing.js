@@ -7,8 +7,12 @@ import ReactDOM from 'react-dom'
 
 class App extends React.Component {
   chartRef = React.createRef();
-
+  state = {
+      dataset:""
+    }
  constructor() {
+  
+
    super();
    this.handleSubmit = this.handleSubmit.bind(this);
   
@@ -22,7 +26,6 @@ handleSubmit(event) {
   var ynv = dataxios.get('yvalue')
   this.setState({xnv}); // XNV = X del New Value, Valor ingresado para clasificar
   this.setState({ynv}); // YNF = Y del New Value, Valor ingresado para clasificar
-
   //Con Axios realizamos una llamada a la API que nos devuelve los K nearest neighbours 
   axios.get(`https://ia-knn.herokuapp.com/api/ia-knn/v1/calculate?xValue=${dataxios.get('xvalue')}&yValue=${dataxios.get('yvalue')}&kValue=${dataxios.get('kvalue')}`)
   .then(res => {
@@ -35,6 +38,7 @@ handleSubmit(event) {
 
 }
 handleMapping(){
+
    var i;
    var obj = {};
    var data = [];
@@ -91,10 +95,12 @@ handleMapping(){
    
    // Se calcula la desviacion estandar
    for (i = 0; i < this.state.resultknn; i++) { 
+     
     sqrdevx.push(Math.pow((datax[i]-avgx), 2));
     sqrdevy.push(Math.pow((datay[i]-avgx), 2));
    }
    for (i = 0; i < sqrdevx.length; i++) { 
+    
     sx=sx+sqrdevx[i];
     sy=sy+sqrdevy[i];
    }
@@ -105,7 +111,6 @@ handleMapping(){
    // Se almacenan las Desviaciones Estandar
    this.setState({sx})
    this.setState({sy})
-
    // Se crean dos arreglos con los datos ya normalizados para poder realizar el grafico
    for (i = 0; i < this.state.resultknn; i++) { 
     dataxn.push((datax[i]-avgx)/sx)
@@ -147,11 +152,12 @@ handleMapping(){
   this.setState({nvclase})
   // this.setState({dmin});
   // this.setState({imin});
-  console.log(this.state)
+  
    this.handleChart();
  }
 
  handleChart(){
+      console.log(this.state)
       const myChartRef = this.chartRef.current.getContext("2d");
       var zvalues = [];
       var i;
@@ -212,6 +218,20 @@ handleMapping(){
     });
   
 }
+bulkLoad(event){
+  event.preventDefault();
+  const databulk = new FormData(event.target);
+  if(databulk.get('dataset').length!==0){
+    console.log(JSON.parse(databulk.get('dataset')))
+    axios.post('https://ia-knn.herokuapp.com/api/ia-knn/v1/bulk-upload', JSON.parse(databulk.get('dataset')));
+
+  }
+}
+handleDatasetChange(value){
+  this.setState({
+    dataset: value
+});
+}
   render(){ 
   return (
     <div className="landing">
@@ -223,11 +243,11 @@ handleMapping(){
             <form onSubmit={this.handleSubmit}>
             <div className="form-group row">
                 <label className="col-sm-2 col-form-label" htmlFor="xvalue">Enter X Value</label>
-                <input className='col-sm-3' id="xvalue" name="xvalue" type="number" />
+                <input className='col-sm-3' id="xvalue" name="xvalue" step="0.0001" type="number" />
             </div>
             <div className="form-group row">
                 <label className="col-sm-2 col-form-label" htmlFor="yvalue">Enter Y Value</label>
-                <input className='col-sm-3' id="yvalue" name="yvalue" type="number" />
+                <input className='col-sm-3' id="yvalue" name="yvalue" step="0.0001" type="number" />
             </div>
             <div className="form-group row">
                 <label className="col-sm-2 col-form-label" htmlFor="kvalue">Enter K Value</label>
@@ -236,10 +256,22 @@ handleMapping(){
             <div className="form-group row">
                 <button type='submit' className='btn btn-primary'>Classify</button>
             </div>
+            
           
         </form>
-          </div>
+      
+          <form onSubmit={this.bulkLoad}>
+            <div className="form-group row">
+                  <label className="col-sm-2 col-form-label" htmlFor="dataset">Enter dataset</label>
+                  <textarea type='text' onChange={e => this.handleDatasetChange(e.target.value)} value={this.state.dataset} rows='18' className='col-sm-3' id="dataset" name="dataset"  />
+            </div>
+            <div className="form-group row">
+                  <button disabled={this.state.dataset.length<1} type='submit' className='btn btn-primary'>Load dataset</button> 
+              </div>
+            
           
+        </form>
+        </div>
       </div>
       <div className="row dynamic">
         <div className="col-5 integrantes">
@@ -251,13 +283,13 @@ handleMapping(){
             <li>Solis, Santiago</li>
           </ul>
         </div>
-        <div className="col">
-          <div className="resultado" id='resultado'></div>
-        </div>
+       
       </div>
      
 
-      
+      <div className="col">
+          <div className="resultado" id='resultado'></div>
+        </div>
                 <canvas
                     id="myChart"
                     ref={this.chartRef}
