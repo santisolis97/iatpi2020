@@ -44,6 +44,7 @@ export default class Form extends React.Component {
       });
   }
   bulkLoad(event) {
+    //Se realiza un POST a la API con los datos ingresados en el form.
     event.preventDefault();
     const databulk = new FormData(event.target);
     if (databulk.get("dataset").length !== 0) {
@@ -65,6 +66,7 @@ export default class Form extends React.Component {
   }
 
   onRadioChange = (radioStatus) => {
+    //Con esto podemos elegir si queremos el layout de carga o de clasificacion
     this.setState({ radioStatus });
     if (this.state.radioStatus) {
       var styleform = { display: "none" };
@@ -78,7 +80,9 @@ export default class Form extends React.Component {
       this.setState({ stylebulk });
     }
   };
+
   isValidJson(json) {
+    //Esta funcion valida el json del formulario de carga.
     try {
       JSON.parse(json);
     } catch (e) {
@@ -87,6 +91,7 @@ export default class Form extends React.Component {
     return true;
   }
   handleDatasetChange(value) {
+    //Con esta funcion activamos y desactivamos el boton de carga corroborando si los datos estan o no correctos
     this.setState({
       dataset: value,
     });

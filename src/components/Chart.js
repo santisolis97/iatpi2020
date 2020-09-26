@@ -57,10 +57,6 @@ export default class Charts extends React.Component {
     avgx = avgx / this.props.resultknn;
     avgy = avgy / this.props.resultknn;
 
-    // Se almacenan las medias de ambos valores
-    this.setState({ avgx });
-    this.setState({ avgy });
-
     // Se calcula la desviacion estandar
     for (i = 0; i < this.props.resultknn; i++) {
       sqrdevx.push(Math.pow(datax[i] - avgx, 2));
@@ -74,17 +70,12 @@ export default class Charts extends React.Component {
     sy = sy / this.props.resultknn;
     sx = Math.sqrt(sx);
     sy = Math.sqrt(sy);
-    // Se almacenan las Desviaciones Estandar
-    this.setState({ sx });
-    this.setState({ sy });
+
     // Se crean dos arreglos con los datos ya normalizados para poder realizar el grafico
     for (i = 0; i < this.props.resultknn; i++) {
       dataxn.push((datax[i] - avgx) / sx);
       datayn.push((datay[i] - avgx) / sx);
     }
-    // Se almacenan los datos normalizados en el Estado
-    this.setState({ dataxn });
-    this.setState({ datayn });
 
     // Se crea el arreglo dataset con los Objetos de pares X,Y para graficar
     for (i = 0; i < this.props.resultknn; i++) {
@@ -94,7 +85,7 @@ export default class Charts extends React.Component {
       obj["z"] = this.props.knn[i].result;
       datan.push(obj);
     }
-    // Se almacena el arreglo con los pares en el Estado
+
     // Se calcula cual es el Vecino mas cercano entre los K vecinos mas cercanos despues de la normalizacion para realizar la clasificacion.
     for (i = 0; i < this.props.resultknn; i++) {
       d = Math.sqrt(
@@ -117,9 +108,6 @@ export default class Charts extends React.Component {
     this.setState({ nvclase });
     console.log("se seteo esto: " + this.state.nvclase);
 
-    // this.setState({dmin});
-    // this.setState({imin});
-    console.log(this.props.xnv);
     this.handleChart(
       datan,
       nvclase,
@@ -133,11 +121,9 @@ export default class Charts extends React.Component {
   }
 
   handleChart(datan, nvclase, xnv, avgx, sx, ynv, avgy, sy) {
-    // console.log(this.state);
     const myChartRef = this.chartRef.current.getContext("2d");
     var zvalues = [];
     var i;
-    console.log(xnv + ynv);
 
     // Creamos un arreglo con las clases para mostrarlas en el tooltip del grafico
     for (i = 0; i < this.props.resultknn; i++) {
