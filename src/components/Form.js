@@ -7,6 +7,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 export default class Form extends React.Component {
   constructor(props) {
     super(props);
+    // Inicializamos el State
     this.state = {
       dataset: "",
       radioStatus: true,
@@ -16,6 +17,8 @@ export default class Form extends React.Component {
   }
 
   handleSubmit(event) {
+    // Se ejecuta al hacer submit al formulario de clasificacion.
+    // Realiza la request a la API para obtener los KNN
     event.preventDefault();
     const dataxios = new FormData(event.target);
     var xnv = dataxios.get("xvalue");
@@ -32,18 +35,14 @@ export default class Form extends React.Component {
       .then((res) => {
         const knn = res.data; //Guardamos la respuesta de la API
         const resultknn = [knn.length]; //Guardamos K
-        this.setState({ resultknn }); //Guardamos la respuesta de la API en el Estado
-        this.setState({ knn }); //Guardamos K en el Estado
-        this.props.onResponse(
-          this.state.knn,
-          this.state.resultknn,
-          this.state.xnv,
-          this.state.ynv
-        );
+
+        // Devolvemos los valores al padre (landing)
+        this.props.onResponse(knn, resultknn, xnv, ynv);
         // this.handleMapping(); // Llamamos a la funcion para poder realizar el mapeo de los datos obtenidos con el grafico
       });
   }
   bulkLoad(event) {
+    // Se ejecuta cuando se hace submit en el formulario de upload dataset
     //Se realiza un POST a la API con los datos ingresados en el form.
     event.preventDefault();
     const databulk = new FormData(event.target);
@@ -200,7 +199,7 @@ export default class Form extends React.Component {
               className="tooltip-box"
               opensOn="Hover"
               id="box"
-              content="Put some valid dataset"
+              content="Enter a valid dataset"
             >
               <button
                 data-tip

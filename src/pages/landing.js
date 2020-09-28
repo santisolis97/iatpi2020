@@ -4,8 +4,6 @@ import Charts from "../components/Chart";
 import ReactDOM from "react-dom";
 import Form from "../components/Form";
 
-// Maniana comentar
-
 class App extends React.Component {
   chartRef = React.createRef();
 
@@ -19,15 +17,14 @@ class App extends React.Component {
   }
 
   handleResponse = (knn, resultknn, xnv, ynv) => {
-    // this.setState({ knn });
-    // this.setState({ resultknn });
-    console.log(this.state);
+    // Se ejecuta luego del response del Form
+    // Llamamos al metodo handleMapping del componente Charts
     this.child.current.handleMapping(knn, resultknn, xnv, ynv);
+    // Hace visible el grafico.
+    document.getElementById("grafico").style.display = "block";
   };
-  // Cuando se hace submit al formulario guardamos los valores ingresados para poder realizar la request a la API
 
   render() {
-    // const radioStatus  = this.state.radioStatus;
     return (
       <div className="landing">
         <div className="row static">

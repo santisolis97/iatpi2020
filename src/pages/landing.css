@@ -50,7 +50,6 @@ canvas {
   position: absolute;
   top: 32%;
   left: 2%;
-  border-right: #38444d 2px solid;
   font-weight: 800;
   font-size: 80px;
   color: white;
@@ -59,7 +58,6 @@ canvas {
   position: absolute;
   top: 20%;
   left: 52%;
-  border-right: #38444d 2px solid;
   color: white;
 }
 .btn-primary {
@@ -90,4 +88,7 @@ canvas {
 }
 .radios {
   margin-bottom: 20px;
+}
+#grafico {
+  display: none;
 }

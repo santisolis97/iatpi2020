@@ -12,18 +12,7 @@ body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu;
 }
-.static {
-  height: 70%;
-}
-.dynamic {
-  height: 30%;
-}
 
-.uploadsuccestex {
-  color: white;
-  font-size: 25px;
-  margin-left: 130px;
-}
 .alert {
   width: 41%;
   margin-bottom: 1px;
@@ -32,49 +21,20 @@ body {
   line-height: 35px;
   padding: 0px 20px;
 }
-canvas {
-  width: 1400px !important;
-  height: 0;
-}
-.landing {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-color: #15202b;
-}
-.algorithm {
-  position: absolute;
-  top: 32%;
-  left: 2%;
-  border-right: #38444d 2px solid;
-  font-weight: 800;
-  font-size: 80px;
-  color: white;
-}
+
 .form {
   position: absolute;
   top: 20%;
   left: 52%;
-  border-right: #38444d 2px solid;
   color: white;
 }
 .btn-primary {
   margin-left: 10px;
   width: 41%;
+  border-radius: 50px;
   /* border:  rgb(182, 182, 182) 1px solid!important; */
 }
-.integrantes {
-  color: white;
-  margin-left: 20px;
-  font-size: 20px;
-  margin-top: 55px;
-}
-.nombres {
-  font-size: 15px;
-}
-.canvas {
-  height: 700px;
-}
+
 .bulk {
   display: none;
 }
@@ -86,4 +46,152 @@ canvas {
 }
 .radios {
   margin-bottom: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* basic stylings ------------------------------------------ */
+body {
+  background: url(https://scotch.io/wp-content/uploads/2014/07/61.jpg);
+}
+.container {
+  font-family: "Roboto";
+  width: 600px;
+  margin: 30px auto 0;
+  display: block;
+  background: #fff;
+  padding: 10px 50px 50px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+h2 small {
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: #53b2c8;
+}
+
+/* form starting stylings ------------------------------- */
+.group {
+  position: relative;
+  margin-bottom: 45px;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+input:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
 }
