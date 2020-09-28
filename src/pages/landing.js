@@ -23,11 +23,6 @@ class App extends React.Component {
     // this.setState({ resultknn });
     console.log(this.state);
     this.child.current.handleMapping(knn, resultknn, xnv, ynv);
-
-    // ReactDOM.render(
-    //   <Charts knn={knn} resultknn={resultknn} xnv={xnv} ynv={ynv}></Charts>,
-    //   document.getElementById("grafico")
-    // );
   };
   // Cuando se hace submit al formulario guardamos los valores ingresados para poder realizar la request a la API
 
