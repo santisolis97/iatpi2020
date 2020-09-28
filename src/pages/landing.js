@@ -1,7 +1,6 @@
 import React from "react";
 import "./landing.css";
 import Charts from "../components/Chart";
-import ReactDOM from "react-dom";
 import Form from "../components/Form";
 
 class App extends React.Component {
