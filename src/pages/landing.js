@@ -38,7 +38,7 @@ class App extends React.Component {
         </div>
         <div className="row dynamic">
           <div className="col-5 integrantes">
-            <p>Integrantes</p>
+            <p>Group members:</p>
             <ul className="nombres">
               <li>Cardozo, Edgar</li>
               <li>Fiz, Alan</li>
