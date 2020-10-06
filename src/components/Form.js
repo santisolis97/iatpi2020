@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import ReactDOM from "react-dom";
+import bulkExample from "../bulkExample.json";
 import "./Form.css";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
@@ -9,11 +10,16 @@ export default class Form extends React.Component {
     super(props);
     // Inicializamos el State
     this.state = {
-      dataset: "",
+      dataset: JSON.stringify(bulkExample),
       radioStatus: true,
-      buttonIsDisabled: true,
+      buttonIsDisabled: false,
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleDelete() {
+    axios
+      .delete("https://ia-knn.herokuapp.com/api/ia-knn/v1/data/delete")
+      .then(alert("Deleted successfuly"));
   }
 
   handleSubmit(event) {
@@ -28,7 +34,7 @@ export default class Form extends React.Component {
     //Con Axios realizamos una llamada a la API que nos devuelve los K nearest neighbours
     axios
       .get(
-        `https://ia-knn.herokuapp.com/api/ia-knn/v1/calculate?xValue=${dataxios.get(
+        `https://ia-knn.herokuapp.com/api/ia-knn/v1/knn/calculate?xValue=${dataxios.get(
           "xvalue"
         )}&yValue=${dataxios.get("yvalue")}&kValue=${dataxios.get("kvalue")}`
       )
@@ -50,16 +56,23 @@ export default class Form extends React.Component {
       console.log(JSON.parse(databulk.get("dataset")));
       axios
         .post(
-          "https://ia-knn.herokuapp.com/api/ia-knn/v1/bulk-upload",
+          "https://ia-knn.herokuapp.com/api/ia-knn/v1/data/bulk-upload",
           JSON.parse(databulk.get("dataset"))
         )
         .then((res) => {
           ReactDOM.render(
-            <div className="alert alert-success" role="alert">
+            <div
+              className="alert alert-success"
+              role="alert"
+              id="success-alert"
+            >
               <p className="text-center">Dataset upload was successful</p>
             </div>,
             document.getElementById("bulkSuccess")
           );
+          setTimeout(function () {
+            document.getElementById("success-alert").style.display = "none";
+          }, 3000);
         });
     }
   }
@@ -167,7 +180,7 @@ export default class Form extends React.Component {
             />
           </div>
           <div className="form-group row">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn classifybtn btn-primary">
               Classify
             </button>
           </div>
@@ -186,31 +199,45 @@ export default class Form extends React.Component {
               type="text"
               onChange={(e) => this.handleDatasetChange(e.target.value)}
               value={this.state.dataset}
+              placeholder="Insert a valid JSON dataset"
               rows="18"
               className="col-sm-3"
               id="dataset"
               name="dataset"
             />
           </div>
-          <div className="form-group row">
-            <TooltipComponent
-              position="BottomCenter"
-              cssClass="customtooltip"
-              className="tooltip-box"
-              opensOn="Hover"
-              id="box"
-              content="Enter a valid dataset"
-            >
-              <button
-                data-tip
-                data-for="registerTip"
-                disabled={this.state.buttonIsDisabled}
-                type="submit"
-                className="btn bulkbtn btn-primary"
-              >
-                Load dataset
-              </button>
-            </TooltipComponent>
+          <div className="form-group">
+            <div className="row">
+              <div className="col-3">
+                <button
+                  data-tip
+                  data-for="registerTip"
+                  disabled={this.state.buttonIsDisabled}
+                  type="submit"
+                  className="btn bulkbtn btn-success"
+                >
+                  Load dataset
+                </button>{" "}
+              </div>
+              <div className="col-2">
+                <TooltipComponent
+                  position="BottomCenter"
+                  cssClass="customtooltip"
+                  className="tooltip-box"
+                  opensOn="Hover"
+                  id="box"
+                  content="Delete all registers"
+                >
+                  <button
+                    onClick={this.handleDelete}
+                    type="button"
+                    class="btn deletebtn btn-danger"
+                  >
+                    Delete database
+                  </button>
+                </TooltipComponent>
+              </div>
+            </div>
           </div>
           <div className="bulkSuccess" id="bulkSuccess"></div>
         </form>

@@ -224,7 +224,7 @@ export default class Charts extends React.Component {
       ReactDOM.render(
         <div className="gris">
           <p className="text-center restext">
-            La clase del objeto introducido es {nvclase}
+            The class of the new object is: <bold>{nvclase}</bold>
           </p>
         </div>,
         document.getElementById("resultado")

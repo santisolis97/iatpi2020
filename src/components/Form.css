@@ -28,9 +28,28 @@ body {
   left: 52%;
   color: white;
 }
-.btn-primary {
+.bulkbtn {
   margin-left: 10px;
-  width: 41%;
+  width: 108%;
+  border-radius: 50px;
+  margin: 0;
+  /* border:  rgb(182, 182, 182) 1px solid!important; */
+}
+.deletebtn {
+  margin-left: 10px;
+  width: 120%;
+  margin: 0;
+  border-radius: 50px;
+  /* border:  rgb(182, 182, 182) 1px solid!important; */
+}
+
+#box {
+  width: 90%;
+  margin-right: 0;
+}
+.classifybtn {
+  margin-left: 10px;
+  width: 41.3%;
   border-radius: 50px;
   /* border:  rgb(182, 182, 182) 1px solid!important; */
 }
