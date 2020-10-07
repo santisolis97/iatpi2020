@@ -1,1002 +1,1402 @@
 [
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.3034455,
-    "yvalue": 536.486347
+    "yvalue": 536.486347,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.1644948,
-    "yvalue": 3.39302974
+    "yvalue": 3.39302974,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.36384167,
-    "yvalue": 3.4662791
+    "yvalue": 3.4662791,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.71758171,
-    "yvalue": 3.1736868
+    "yvalue": 3.1736868,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 6.26468703,
-    "yvalue": 3.38746862
+    "yvalue": 3.38746862,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.96948149,
-    "yvalue": 63.9384092
+    "yvalue": 63.9384092,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.7433699,
-    "yvalue": 14.757106
+    "yvalue": 14.757106,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.874752,
-    "yvalue": 13.7192019
+    "yvalue": 13.7192019,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.58037049,
-    "yvalue": 3.42547834
+    "yvalue": 3.42547834,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.2590411,
-    "yvalue": 3.49072422
+    "yvalue": 3.49072422,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.32618183,
-    "yvalue": 4.39702267
+    "yvalue": 4.39702267,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 12.350383,
-    "yvalue": 58.9211679
+    "yvalue": 58.9211679,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.02746666,
-    "yvalue": 1.03092077
+    "yvalue": 1.03092077,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.74553667,
-    "yvalue": 3.22849596
+    "yvalue": 3.22849596,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.13779107,
-    "yvalue": 3.18784598
+    "yvalue": 3.18784598,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 8.27936644,
-    "yvalue": 3.49935401
+    "yvalue": 3.49935401,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.49693289,
-    "yvalue": 4.48572215
+    "yvalue": 4.48572215,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.2377392,
-    "yvalue": 69.0190034
+    "yvalue": 69.0190034,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.06903287,
-    "yvalue": 3.47857051
+    "yvalue": 3.47857051,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 12.4401074,
-    "yvalue": 22.6431613
+    "yvalue": 22.6431613,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.7924131,
-    "yvalue": 2.53028974
+    "yvalue": 2.53028974,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 5.73320719,
-    "yvalue": 3.44315577
+    "yvalue": 3.44315577,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.5323954,
-    "yvalue": 10.0173283
+    "yvalue": 10.0173283,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.53242592,
-    "yvalue": 4.72197815
+    "yvalue": 4.72197815,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.2915128,
-    "yvalue": 11.3674831
+    "yvalue": 11.3674831,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 3.14172796,
-    "yvalue": 20.5978543
+    "yvalue": 20.5978543,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.52452162,
-    "yvalue": 3.43231276
+    "yvalue": 3.43231276,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 14.7912534,
-    "yvalue": 3.47320534
+    "yvalue": 3.47320534,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 14.6305734,
-    "yvalue": 3.41808872
+    "yvalue": 3.41808872,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 1.90527055,
-    "yvalue": 3.13719694
+    "yvalue": 3.13719694,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 12.5142674,
-    "yvalue": 3.36968132
+    "yvalue": 3.36968132,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.85833308,
-    "yvalue": 2.81712839
+    "yvalue": 2.81712839,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.8440809,
-    "yvalue": 3.35418886
+    "yvalue": 3.35418886,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 13.5525071,
-    "yvalue": 3.40217389
+    "yvalue": 3.40217389,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 5.25666066,
-    "yvalue": 24.9828126
+    "yvalue": 24.9828126,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.03570666,
-    "yvalue": 1.03658257
+    "yvalue": 1.03658257,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.08334605,
-    "yvalue": 13.0712069
+    "yvalue": 13.0712069,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 13.7809381,
-    "yvalue": 261.38567
+    "yvalue": 261.38567,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.4849391,
-    "yvalue": 31.5307592
+    "yvalue": 31.5307592,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.7136143,
-    "yvalue": 3.46104997
+    "yvalue": 3.46104997,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 5.93050935,
-    "yvalue": 3.22922252
+    "yvalue": 3.22922252,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 12.7266762,
-    "yvalue": 28.82497
+    "yvalue": 28.82497,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.2764367,
-    "yvalue": 3.39610713
+    "yvalue": 3.39610713,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.58418531,
-    "yvalue": 3.17806176
+    "yvalue": 3.17806176,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 4.28296762,
-    "yvalue": 9.39110461
+    "yvalue": 9.39110461,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.54567095,
-    "yvalue": 1.74704601
+    "yvalue": 1.74704601,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 6.47297586,
-    "yvalue": 80.0737218
+    "yvalue": 80.0737218,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.56196783,
-    "yvalue": 3.46501229
+    "yvalue": 3.46501229,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.92110965,
-    "yvalue": 3.21782503
+    "yvalue": 3.21782503,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.08960234,
-    "yvalue": 3.31001019
+    "yvalue": 3.31001019,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 6.6400647,
-    "yvalue": 11.4021873
+    "yvalue": 11.4021873,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.04376354,
-    "yvalue": 3.11156957
+    "yvalue": 3.11156957,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.29279458,
-    "yvalue": 3.20280598
+    "yvalue": 3.20280598,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.1281167,
-    "yvalue": 3.35227009
+    "yvalue": 3.35227009,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.62532426,
-    "yvalue": 2.6768092
+    "yvalue": 2.6768092,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 14.1219825,
-    "yvalue": 3.47557778
+    "yvalue": 3.47557778,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 5.97399823,
-    "yvalue": 7.92169457
+    "yvalue": 7.92169457,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.4297922,
-    "yvalue": 21.5417738
+    "yvalue": 21.5417738,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.5248268,
-    "yvalue": 27.7087372
+    "yvalue": 27.7087372,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.09732353,
-    "yvalue": 3.26640523
+    "yvalue": 3.26640523,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.90401929,
-    "yvalue": 62.2373692
+    "yvalue": 62.2373692,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 8.49818415,
-    "yvalue": 69.0314842
+    "yvalue": 69.0314842,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.60844752,
-    "yvalue": 3.15543562
+    "yvalue": 3.15543562,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 14.7514267,
-    "yvalue": 3.45141488
+    "yvalue": 3.45141488,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.5700858,
-    "yvalue": 3.42392187
+    "yvalue": 3.42392187,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.8527787,
-    "yvalue": 3.38192599
+    "yvalue": 3.38192599,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.51454207,
-    "yvalue": 2.55030179
+    "yvalue": 2.55030179,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.1780755,
-    "yvalue": 1.52949356
+    "yvalue": 1.52949356,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.76631977,
-    "yvalue": 2.5589982
+    "yvalue": 2.5589982,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.2249825,
-    "yvalue": 19.6862421
+    "yvalue": 19.6862421,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.06277657,
-    "yvalue": 3.30054593
+    "yvalue": 3.30054593,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.1004059,
-    "yvalue": 73.8328052
+    "yvalue": 73.8328052,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.9150365,
-    "yvalue": 3.37543243
+    "yvalue": 3.37543243,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.67113254,
-    "yvalue": 5.12725717
+    "yvalue": 5.12725717,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.21185949,
-    "yvalue": 14.5993617
+    "yvalue": 14.5993617,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.59559923,
-    "yvalue": 5.1530681
+    "yvalue": 5.1530681,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.2512589,
-    "yvalue": 34.1527354
+    "yvalue": 34.1527354,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 3.46217231,
-    "yvalue": 4.64449256
+    "yvalue": 4.64449256,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.1713614,
-    "yvalue": 287.740405
+    "yvalue": 287.740405,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 12.7060762,
-    "yvalue": 18.9983532
+    "yvalue": 18.9983532,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.24033326,
-    "yvalue": 2.65936106
+    "yvalue": 2.65936106,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.21594897,
-    "yvalue": 3.2822869
+    "yvalue": 3.2822869,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.1487167,
-    "yvalue": 16.5251589
+    "yvalue": 16.5251589,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.31077,
-    "yvalue": 36.740755
+    "yvalue": 36.740755,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 8.7980285,
-    "yvalue": 150.739092
+    "yvalue": 150.739092,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 12.3128452,
-    "yvalue": 3.46424609
+    "yvalue": 3.46424609,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.3563646,
-    "yvalue": 27.2356295
+    "yvalue": 27.2356295,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.55607776,
-    "yvalue": 3.27713683
+    "yvalue": 3.27713683,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 1.16779077,
-    "yvalue": 2.59038073
+    "yvalue": 2.59038073,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.15726188,
-    "yvalue": 2.18638168
+    "yvalue": 2.18638168,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.74303415,
-    "yvalue": 3.28008028
+    "yvalue": 3.28008028,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 6.85750908,
-    "yvalue": 11.8555794
+    "yvalue": 11.8555794,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.57319864,
-    "yvalue": 3.14574577
+    "yvalue": 3.14574577,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.458388,
-    "yvalue": 3.45509926
+    "yvalue": 3.45509926,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.18939787,
-    "yvalue": 3.35470766
+    "yvalue": 3.35470766,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.59407331,
-    "yvalue": 14.5317836
+    "yvalue": 14.5317836,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.32847072,
-    "yvalue": 2.86762537
+    "yvalue": 2.86762537,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.82451857,
-    "yvalue": 3.23219081
+    "yvalue": 3.23219081,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.2828455,
-    "yvalue": 58.5434514
+    "yvalue": 58.5434514,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 4.27289651,
-    "yvalue": 16.265655
+    "yvalue": 16.265655,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 5.08133183,
-    "yvalue": 18.6596478
+    "yvalue": 18.6596478,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.08105716,
-    "yvalue": 4.57779004
+    "yvalue": 4.57779004,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.44441053,
-    "yvalue": 25.1695738
+    "yvalue": 25.1695738,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.514481,
-    "yvalue": 14.966176
+    "yvalue": 14.966176,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 12.018952,
-    "yvalue": 19.5919853
+    "yvalue": 19.5919853,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.84920804,
-    "yvalue": 4.18428956
+    "yvalue": 4.18428956,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 8.39609973,
-    "yvalue": 3.33221623
+    "yvalue": 3.33221623,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.51808222,
-    "yvalue": 3.33735785
+    "yvalue": 3.33735785,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 3.68465224,
-    "yvalue": 16.7482232
+    "yvalue": 16.7482232,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.47917112,
-    "yvalue": 45.0340366
+    "yvalue": 45.0340366,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 13.8189337,
-    "yvalue": 35.2171628
+    "yvalue": 35.2171628,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 2.53929258,
-    "yvalue": 3.38845726
+    "yvalue": 3.38845726,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.11169774,
-    "yvalue": 31.031496
+    "yvalue": 31.031496,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 6.15024262,
-    "yvalue": 3.31973075
+    "yvalue": 3.31973075,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 5.80690939,
-    "yvalue": 3.25246304
+    "yvalue": 3.25246304,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.2803125,
-    "yvalue": 22.5973451
+    "yvalue": 22.5973451,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.10516678,
-    "yvalue": 3.49068142
+    "yvalue": 3.49068142,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 13.013245,
-    "yvalue": 3.42062661
+    "yvalue": 3.42062661,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 6.68263802,
-    "yvalue": 9.91122751
+    "yvalue": 9.91122751,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.4396191,
-    "yvalue": 42.8141856
+    "yvalue": 42.8141856,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.4656209,
-    "yvalue": 3.30581371
+    "yvalue": 3.30581371,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 5.23285623,
-    "yvalue": 3.39042884
+    "yvalue": 3.39042884,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 11.9425031,
-    "yvalue": 30.2314854
+    "yvalue": 30.2314854,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.60689108,
-    "yvalue": 3.40846815
+    "yvalue": 3.40846815,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.2839747,
-    "yvalue": 22.0444711
+    "yvalue": 22.0444711,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 5.16968291,
-    "yvalue": 14.4130865
+    "yvalue": 14.4130865,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.19965209,
-    "yvalue": 3.26619915
+    "yvalue": 3.26619915,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.11243019,
-    "yvalue": 3.41869999
+    "yvalue": 3.41869999,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 12.3389386,
-    "yvalue": 3.3977073
+    "yvalue": 3.3977073,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 6.61442915,
-    "yvalue": 3.30811226
+    "yvalue": 3.30811226,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.35117649,
-    "yvalue": 3.13679062
+    "yvalue": 3.13679062,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 8.42036195,
-    "yvalue": 10.5070401
+    "yvalue": 10.5070401,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.213477,
-    "yvalue": 3.4505612
+    "yvalue": 3.4505612,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.89211707,
-    "yvalue": 35.1929803
+    "yvalue": 35.1929803,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 4.96368297,
-    "yvalue": 3.21713231
+    "yvalue": 3.21713231,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.88332774,
-    "yvalue": 3.37341697
+    "yvalue": 3.37341697,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.18161565,
-    "yvalue": 14.3851868
+    "yvalue": 14.3851868,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.4460891,
-    "yvalue": 56.4319093
+    "yvalue": 56.4319093,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 2.34107486,
-    "yvalue": 4.2548288
+    "yvalue": 4.2548288,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.0414136,
-    "yvalue": 17.2030581
+    "yvalue": 17.2030581,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.38984344,
-    "yvalue": 3.25319652
+    "yvalue": 3.25319652,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.98504593,
-    "yvalue": 3.36899443
+    "yvalue": 3.36899443,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 3.15775018,
-    "yvalue": 3.30369274
+    "yvalue": 3.30369274,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 13.1272317,
-    "yvalue": 3.4572059
+    "yvalue": 3.4572059,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 12.1407208,
-    "yvalue": 3.37019501
+    "yvalue": 3.37019501,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 8.31049532,
-    "yvalue": 10.7852591
+    "yvalue": 10.7852591,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.07361064,
-    "yvalue": 3.32835144
+    "yvalue": 3.32835144,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.72374645,
-    "yvalue": 3.41119542
+    "yvalue": 3.41119542,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 8.74034852,
-    "yvalue": 15.2563629
+    "yvalue": 15.2563629,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 2.71691031,
-    "yvalue": 3.43019098
+    "yvalue": 3.43019098,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.4210944,
-    "yvalue": 3.39509568
+    "yvalue": 3.39509568,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 6.32648701,
-    "yvalue": 3.28064934
+    "yvalue": 3.28064934,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.6930143,
-    "yvalue": 3.40299681
+    "yvalue": 3.40299681,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 4.48530534,
-    "yvalue": 5.69809764
+    "yvalue": 5.69809764,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 5.9295938,
-    "yvalue": 8.70785554
+    "yvalue": 8.70785554,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.44611957,
-    "yvalue": 2.64899685
+    "yvalue": 2.64899685,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.0599078,
-    "yvalue": 3.49218424
+    "yvalue": 3.49218424,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 2.88995025,
-    "yvalue": 3.11614016
+    "yvalue": 3.11614016,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.9359111,
-    "yvalue": 160.260414
+    "yvalue": 160.260414,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.90035707,
-    "yvalue": 13.9886034
+    "yvalue": 13.9886034,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 13.8212226,
-    "yvalue": 3.41271757
+    "yvalue": 3.41271757,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.82982879,
-    "yvalue": 95.5846707
+    "yvalue": 95.5846707,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.0176397,
-    "yvalue": 164.335747
+    "yvalue": 164.335747,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.4977569,
-    "yvalue": 103.407967
+    "yvalue": 103.407967,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.5096591,
-    "yvalue": 194.830758
+    "yvalue": 194.830758,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 4.25641652,
-    "yvalue": 6.28909015
+    "yvalue": 6.28909015,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 14.9862667,
-    "yvalue": 3.40289683
+    "yvalue": 3.40289683,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 0.44724876,
-    "yvalue": 2.86555045
+    "yvalue": 2.86555045,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.4466689,
-    "yvalue": 8.92406165
+    "yvalue": 8.92406165,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.00640889,
-    "yvalue": 1.01827034
+    "yvalue": 1.01827034,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.6113468,
-    "yvalue": 66.176191
+    "yvalue": 66.176191,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 14.7688223,
-    "yvalue": 3.42930231
+    "yvalue": 3.42930231,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.44703513,
-    "yvalue": 3.54272995
+    "yvalue": 3.54272995,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.7747124,
-    "yvalue": 3.35817666
+    "yvalue": 3.35817666,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.76757103,
-    "yvalue": 176.959802
+    "yvalue": 176.959802,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 1.34769738,
-    "yvalue": 5.40356196
+    "yvalue": 5.40356196,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.9132664,
-    "yvalue": 2.01037839
+    "yvalue": 2.01037839,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 3.24427015,
-    "yvalue": 7.4912
+    "yvalue": 7.4912,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 3.58439894,
-    "yvalue": 4.62635267
+    "yvalue": 4.62635267,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 2.05313272,
-    "yvalue": 3.40216623
+    "yvalue": 3.40216623,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.1819514,
-    "yvalue": 21.0392215
+    "yvalue": 21.0392215,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.44898831,
-    "yvalue": 3.34517377
+    "yvalue": 3.34517377,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 8.20612201,
-    "yvalue": 3.39491052
+    "yvalue": 3.39491052,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 0.36896878,
-    "yvalue": 1.43401999
+    "yvalue": 1.43401999,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 14.2524491,
-    "yvalue": 314.040705
+    "yvalue": 314.040705,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.13675344,
-    "yvalue": 3.34060907
+    "yvalue": 3.34060907,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 8.51741081,
-    "yvalue": 3.47412766
+    "yvalue": 3.47412766,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 1.81783502,
-    "yvalue": 3.41876187
+    "yvalue": 3.41876187,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 11.7392499,
-    "yvalue": 3.40721499
+    "yvalue": 3.40721499,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 10.5815302,
-    "yvalue": 279.440933
+    "yvalue": 279.440933,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 9.00723289,
-    "yvalue": 3.32631486
+    "yvalue": 3.32631486,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.275277,
-    "yvalue": 3.43365637
+    "yvalue": 3.43365637,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 7.0291757,
-    "yvalue": 3.31145209
+    "yvalue": 3.31145209,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 7.57942442,
-    "yvalue": 15.9896792
+    "yvalue": 15.9896792,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.9482101,
-    "yvalue": 3.34028963
+    "yvalue": 3.34028963,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 12.1901608,
-    "yvalue": 3.45772488
+    "yvalue": 3.45772488,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.1109348,
-    "yvalue": 3.45553116
+    "yvalue": 3.45553116,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 9.88616596,
-    "yvalue": 11.5213228
+    "yvalue": 11.5213228,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 0,
+    "result": 0.0,
     "xvalue": 10.744499,
-    "yvalue": 3.49052344
+    "yvalue": 3.49052344,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   },
   {
-    "result": 1,
+    "result": 1.0,
     "xvalue": 6.33381146,
-    "yvalue": 18.0873626
+    "yvalue": 18.0873626,
+    "xcalculatedValue": 0.0,
+    "ycalculatedValue": 0.0
   }
 ]

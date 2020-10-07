@@ -45,6 +45,9 @@ export default class Form extends React.Component {
         // Devolvemos los valores al padre (landing)
         this.props.onResponse(knn, resultknn, xnv, ynv);
         // this.handleMapping(); // Llamamos a la funcion para poder realizar el mapeo de los datos obtenidos con el grafico
+      })
+      .catch(() => {
+        alert("The database is empty");
       });
   }
   bulkLoad(event) {
@@ -231,7 +234,7 @@ export default class Form extends React.Component {
                   <button
                     onClick={this.handleDelete}
                     type="button"
-                    class="btn deletebtn btn-danger"
+                    className="btn deletebtn btn-danger"
                   >
                     Delete database
                   </button>

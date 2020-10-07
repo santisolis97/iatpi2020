@@ -142,6 +142,7 @@ export default class Charts extends React.Component {
   }
 
   handleChart(datan, nvclase, xnv, avgx, sx, ynv, avgy, sy, resultknn) {
+    console.log(datan);
     const myChartRef = this.chartRef.current.getContext("2d");
     var zvalues = [];
     var i;
